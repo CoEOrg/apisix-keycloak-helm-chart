@@ -8,7 +8,13 @@ Steps to deploy:
 Run:
 * helm repo add producer-service-repo https://coeorg.github.io/apisix-keycloak-helm-chart/
 * helm repo update
-* helm install producer-service 
+* helm install apisix-keycloak-poc apisix-keycloak-poc-repo/producer-service ^
+  --set gateway.type=LoadBalancer ^
+  --set apisix.enabled=true ^
+  --set ingress-controller.enabled=true ^
+  --set dashboard.enabled=true ^  
+  --namespace ingress-apisix ^
+  --set ingress-controller.config.apisix.serviceNamespace=ingress-apisix
 
 Installed services:
 * apisix gateway
