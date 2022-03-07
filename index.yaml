@@ -3,44 +3,64 @@ entries:
   consumer-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-07T19:13:04.6821233+02:00"
-    description: A Helm chart for Kubernetes which contains consumer service
+    created: "2022-03-07T20:14:02.4716413+02:00"
+    description: A Helm chart for Kubernetes
     digest: 641d7a01e8c43cd28e23107fd2a70de8a27d49e58237f49b4421b445a72569e5
     name: consumer-service
     type: application
     urls:
-    - https://github.com/CoEOrg/apisix-keycloak-helm-chart/consumer-service-0.1.0.tgz
+    - https://coeorg.github.io/apisix-keycloak-helm-chart/consumer-service-0.1.0.tgz
     version: 0.1.0
   keycloak:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-07T19:13:04.6827649+02:00"
-    description: A Helm chart for Kubernetes which contains Keycloak + MySQL
+    created: "2022-03-07T20:14:02.4763575+02:00"
+    description: A Helm chart for Kubernetes
     digest: 7d8a032a2162914c5984adf7388a33aa9ad11ce924631a14e4ab112a2aae1aa7
     name: keycloak
     type: application
     urls:
-    - https://github.com/CoEOrg/apisix-keycloak-helm-chart/keycloak-0.1.0.tgz
+    - https://coeorg.github.io/apisix-keycloak-helm-chart/keycloak-0.1.0.tgz
     version: 0.1.0
   producer-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-07T19:13:04.6927209+02:00"
+    created: "2022-03-07T20:14:02.4924323+02:00"
     dependencies:
     - name: apisix
       repository: https://charts.apiseven.com
       version: 0.8.3
     - name: keycloak
-      repository: file://C:/Users/VolodymyrLishchynskiy/POCCOE/helm_charts/keycloak
+      repository: https://coeorg.github.io/apisix-keycloak-helm-chart
       version: 0.1.0
     - name: consumer-service
-      repository: file://C:/Users/VolodymyrLishchynskiy/POCCOE/helm_charts/consumer-service
+      repository: https://coeorg.github.io/apisix-keycloak-helm-chart
       version: 0.1.0
-    description: A Helm chart for Kubernetes which contains apisix, producer-service, mongo db, mongo express.
-    digest: 5d8110f97b35fbea6456ae73bbb63618900f8437c06611e6f70b19b85b2d0eeb
+    description: A Helm chart for Kubernetes
+    digest: a11d220715595edf1cda7c526c011642deb3ba440b69136d9ecf8528f13f9438
     name: producer-service
     type: application
     urls:
-    - https://github.com/CoEOrg/apisix-keycloak-helm-chart/producer-service-0.1.0.tgz
+    - https://coeorg.github.io/apisix-keycloak-helm-chart/producer-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-07T19:13:04.678255+02:00"
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-07T20:14:02.5014316+02:00"
+    dependencies:
+    - name: apisix
+      repository: https://charts.apiseven.com
+      version: 0.8.3
+    - name: keycloak
+      repository: https://coeorg.github.io/apisix-keycloak-helm-chart
+      version: 0.1.0
+    - name: consumer-service
+      repository: https://coeorg.github.io/apisix-keycloak-helm-chart
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: a11d220715595edf1cda7c526c011642deb3ba440b69136d9ecf8528f13f9438
+    name: producer-service
+    type: application
+    urls:
+    - https://coeorg.github.io/apisix-keycloak-helm-chart/producer-service/producer-service-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-07T20:14:02.4694449+02:00"
