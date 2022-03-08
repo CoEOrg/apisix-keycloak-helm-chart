@@ -1,7 +1,20 @@
 # apisix-keycloak-helm-chart
+
+<b>High Level Architecture Diagram: </b>
+
+<img width="427" alt="image" src="https://user-images.githubusercontent.com/10356708/157142042-f8cb0d91-7c18-4c60-b39b-4573ccbc861b.png">
+
+---
+
+<b>Description:</b>
+
 This is helm chart to deploy APISIX + Keycloak case study project on kubernetes. 
 
-Steps to deploy:
+Github Repo: https://github.com/CoEOrg/apisix-keycloak-helm-chart
+
+---
+
+<b>Steps to deploy:</b>
 
 * Install helm: https://helm.sh/docs/intro/install
 
@@ -18,7 +31,10 @@ Run:
   
   --set ingress-controller.config.apisix.serviceName=apisix-keycloak-poc-admin
 
-Installed services:
+---
+
+<b>Deployed components:</b>
+
 * apisix gateway: https://apisix.apache.org/docs/
 * keycloak identity provider: https://www.keycloak.org/
 * mysql database for keycloak: https://www.mysql.com/
