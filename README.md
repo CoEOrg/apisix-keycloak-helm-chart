@@ -10,16 +10,16 @@
 
 This is helm chart to deploy APISIX + Keycloak case study project on kubernetes. 
 
-Github Repo: https://github.com/CoEOrg/apisix-keycloak-helm-chart
+Github Repo: <a href="https://github.com/CoEOrg/apisix-keycloak-helm-chart"></a>
 
 ---
 
 <b>Steps to deploy:</b>
 
-* Install helm: https://helm.sh/docs/intro/install
+* Install helm: <a href="https://helm.sh/docs/intro/install">https://helm.sh/docs/intro/install</a>
 
 Run:
-* helm repo add apisix-keycloak-poc-repo https://coeorg.github.io/apisix-keycloak-helm-chart/
+* helm repo add apisix-keycloak-poc-repo <a href="https://coeorg.github.io/apisix-keycloak-helm-chart">https://coeorg.github.io/apisix-keycloak-helm-chart</a>
 * helm repo update
 * helm install apisix-keycloak-poc apisix-keycloak-poc-repo/producer-service ^
   
@@ -35,9 +35,9 @@ Run:
 
 <b>Deployed components:</b>
 
-* apisix gateway: https://apisix.apache.org/docs/
-* keycloak identity provider: https://www.keycloak.org/
-* mysql database for keycloak: https://www.mysql.com/
-* consumer third party service: https://github.com/CoEOrg/ConsumerService
-* producer service: https://github.com/CoEOrg/ProducerService
-* mongo database & mongo express for producer service: https://www.mongodb.com/ 
+* apisix gateway: <a href="https://apisix.apache.org/docs/">https://apisix.apache.org/docs</a>
+* keycloak identity provider: <a href="https://www.keycloak.org/">https://www.keycloak.org</a>
+* mysql database for keycloak: <a href="https://www.mysql.com/">https://www.mysql.com</a>
+* consumer third party service: <a href="https://github.com/CoEOrg/ConsumerService">https://github.com/CoEOrg/ConsumerService</a>
+* producer service: <a href="https://github.com/CoEOrg/ProducerService">https://github.com/CoEOrg/ProducerService</a>
+* mongo database & mongo express for producer service: <a href="https://www.mongodb.com/">https://www.mongodb.com</a>
