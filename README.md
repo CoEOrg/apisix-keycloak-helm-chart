@@ -10,7 +10,7 @@
 
 This is helm chart to deploy APISIX + Keycloak case study project on kubernetes. 
 
-Github Repo: <a href="https://github.com/CoEOrg/apisix-keycloak-helm-chart"></a>
+Github Repo: <a href="https://github.com/CoEOrg/apisix-keycloak-helm-chart">https://github.com/CoEOrg/apisix-keycloak-helm-chart</a>
 
 ---
 
