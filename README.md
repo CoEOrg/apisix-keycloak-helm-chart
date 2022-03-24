@@ -21,15 +21,17 @@ Github Repo: <a href="https://github.com/CoEOrg/apisix-keycloak-helm-chart">http
 Run:
 * helm repo add apisix-keycloak-poc-repo <a href="https://coeorg.github.io/apisix-keycloak-helm-chart">https://coeorg.github.io/apisix-keycloak-helm-chart</a>
 * helm repo update
-* helm install apisix-keycloak-poc apisix-keycloak-poc-repo/producer-service ^
+* helm install apisix apisix-keycloak-poc-repo/producer-service ^
   
   --set apisix.gateway.type=LoadBalancer ^ 
   
-  --set apisix.ingress-controller.enabled=true ^
-    
+  --set apisix.ingress-controller.enabled=true ^  
+  
+  --set apisix.fullnameOverride=apisix ^
+  
   --namespace ingress-apisix ^
   
-  --set ingress-controller.config.apisix.serviceName=apisix-keycloak-poc-admin
+  --create-namespace
 
 ---
 
