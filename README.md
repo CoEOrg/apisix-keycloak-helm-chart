@@ -21,6 +21,7 @@ Github Repo: <a href="https://github.com/CoEOrg/apisix-keycloak-helm-chart">http
 Run:
 * helm repo add apisix-keycloak-poc-repo <a href="https://coeorg.github.io/apisix-keycloak-helm-chart">https://coeorg.github.io/apisix-keycloak-helm-chart</a>
 * helm repo update
+* helm install apisix-consumer apisix-keycloak-poc-repo/consumer-service 
 * helm install apisix apisix-keycloak-poc-repo/producer-service ^
   
   --set apisix.gateway.type=LoadBalancer ^ 
