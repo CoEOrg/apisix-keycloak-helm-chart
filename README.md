@@ -42,4 +42,5 @@ Run:
 * keycloak identity provider: <a href="https://www.keycloak.org/">https://www.keycloak.org</a>
 * mysql database for keycloak: <a href="https://www.mysql.com/">https://www.mysql.com</a>
 * producer service: <a href="https://github.com/CoEOrg/ProducerService">https://github.com/CoEOrg/ProducerService</a>
+* consumer service: <a href="https://github.com/CoEOrg/ConsumerService">https://github.com/CoEOrg/ConsumerService</a>
 * mongo database & mongo express for producer service: <a href="https://www.mongodb.com/">https://www.mongodb.com</a>
