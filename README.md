@@ -40,6 +40,5 @@ Run:
 * apisix gateway: <a href="https://apisix.apache.org/docs/">https://apisix.apache.org/docs</a>
 * keycloak identity provider: <a href="https://www.keycloak.org/">https://www.keycloak.org</a>
 * mysql database for keycloak: <a href="https://www.mysql.com/">https://www.mysql.com</a>
-* consumer third party service: <a href="https://github.com/CoEOrg/ConsumerService">https://github.com/CoEOrg/ConsumerService</a>
 * producer service: <a href="https://github.com/CoEOrg/ProducerService">https://github.com/CoEOrg/ProducerService</a>
 * mongo database & mongo express for producer service: <a href="https://www.mongodb.com/">https://www.mongodb.com</a>
